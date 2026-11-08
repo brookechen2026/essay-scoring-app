@@ -1,6 +1,6 @@
 # Essay Scoring and Exploration App
 
-An R Shiny course project by Xiaoxi (Brooke) Chen for STAT 385 at the University of Illinois Urbana-Champaign (December 2025).
+An R Shiny course project by Xiaoxi Chen for STAT 385 at the University of Illinois Urbana-Champaign (December 2025).
 
 ## Overview
 
