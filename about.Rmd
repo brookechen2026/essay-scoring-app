@@ -1,0 +1,31 @@
+---
+title: "About Essay Scoring Application"
+output: html_document
+---
+
+## Author
+
+- **Name:** Xiaoxi (Brooke) Chen
+- **Email:** xiaoxic2@illinois.edu
+
+## Purpose
+
+This Shiny application provides an interactive interface for analyzing and scoring student essays using the ASAP 2.0 dataset. The application allows users to explore essay score distributions across different essay sets and grade levels, and also providing the capability to analyze custom essay text with automated scoring predictions. The tool is designed to assist educators in understanding essay scoring patterns and could be used for preliminary essay evaluation or educational research purposes.
+
+## Data
+
+The application utilizes the **ASAP 2.0 (Automated Student Assessment Prize 2.0)** dataset, which contains approximately 24,000 student-written argumentative essays. This dataset was created by the Learning Agency Lab and Vanderbilt University as part of a competition to develop improved automated essay scoring systems.
+
+**Key features of the dataset:**
+- Essays span multiple essay sets with different prompts and scoring rubrics
+- Includes essays from students across various grade levels
+- Each essay contains holistic scores assigned by human raters
+- Represents diverse economic and geographical populations to reduce algorithmic bias
+- Essays are aligned with current educational standards for student assessments
+
+The dataset includes the following key variables:
+- **essay_id**: Unique identifier for each essay
+- **essay_set**: Numeric identifier for the essay prompt/assignment
+- **grade**: Student grade level
+- **holistic_score**: Overall quality score assigned by human raters
+- **source_text**: The full text content of the student essay
