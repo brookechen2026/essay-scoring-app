@@ -1,6 +1,6 @@
 # Essay Scoring and Exploration App
 
-An R Shiny course project by Xiaoxi Chen for STAT 385 at the University of Illinois Urbana-Champaign (December 2025).
+An R Shiny course project by Xiaoxi Chen for STAT 385: Statistical Programming Methods at the University of Illinois Urbana-Champaign for Fall 2025.
 
 ## Overview
 
@@ -16,22 +16,6 @@ The application combines interactive exploration of essay scores with a rule-bas
 ## Implementation
 
 `app.R` defines the Shiny interface, data preparation, reactive filters, and visualizations. `R/scoring_functions.R` contains reusable text-statistics and scoring functions. The application uses shiny, shinythemes, DT, ggplot2, dplyr, readr, and stringr.
-
-## Run locally
-
-1. Install R and optionally RStudio.
-2. Install the required packages in an R console:
-
-```r
-install.packages(c("shiny", "shinythemes", "DT", "ggplot2", "dplyr", "readr", "stringr"))
-```
-
-3. Place the original project dataset at `data/essays.csv`. See `data/README.md` for the required columns. The dataset is not bundled here.
-4. From the project directory, run:
-
-```r
-shiny::runApp(".")
-```
 
 ## Data and scope
 
