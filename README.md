@@ -10,8 +10,6 @@ An interactive R Shiny app for exploring essay scores and analyzing custom writi
 - Browse essay previews and summary statistics.
 - Analyze custom text with word counts, sentence statistics, and a rule-based score from 1–6.
 
-**Scoring:** Uses text-length and sentence-length heuristics, rather than a trained machine-learning model.
-
 ## Run locally
 
 Place the original dataset at `data/essays.csv` (not included). See [data setup](data/README.md) for required columns. From the project directory, run:
